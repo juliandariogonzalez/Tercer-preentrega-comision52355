@@ -1,3 +1,64 @@
+nav img {
+  height: 55px;
+}
 
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+footer .card-header {
+  height: 90px;
+}
+
+body {
+  background-color: #2a4747;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+#carouselExampleIndicators {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.col {
+  padding: 20px;
+}
+
+.video iframe {
+  max-width: 100%;
+  height: 270px;
+}
+
+.row .card {
+  margin: 20px;
+}
+.row .card:hover {
+  border: 5px solid;
+  color: #ffe066;
+}
+
+#accordionPanelsStayOpenExample {
+  padding: 40px;
+}
+
+#galeria img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+#galeria img:hover {
+  border: 5px solid;
+  color: #ffe066;
+}
+#galeria img:hover .container {
+  max-width: 80%;
+  max-height: 90%;
+  min-width: 50%;
+}
 
 /*# sourceMappingURL=style.css.map */
