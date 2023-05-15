@@ -1,0 +1,13 @@
+// footer
+.btn {
+    background-color: rgb(234, 203, 46);
+    margin-top: 5px;
+    border: 1px; 
+}
+ 
+// botones compra 
+
+ .btn-warning {
+    @extend .btn
+ }
+

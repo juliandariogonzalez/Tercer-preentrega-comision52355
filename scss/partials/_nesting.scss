@@ -1,0 +1,15 @@
+// galeria // nesting
+
+#galeria img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    &:hover{ border: 5px solid; color: #ffe066;   
+       .container {
+          max-width: 80%;
+          max-height: 90%;
+          min-width: 50%;
+       }
+          
+    }
+ }

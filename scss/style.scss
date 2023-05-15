@@ -4,33 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
-
+@import "partials/variables";
 @import "partials/header";
 @import "partials/footer";
 @import "partials/main";
 @import "partials/body";
+@import "partials/nesting";
+@import "partials/extend";
+@import "partials/mixin";
 
-
-
-// galeria // nesting
-
-#galeria img {
-   height: 100%;
-   width: 100%;
-   padding: 10px;
-   &:hover{ border: 5px solid; color: #ffe066;   
-      .container {
-         max-width: 80%;
-         max-height: 90%;
-         min-width: 50%;
-      }
-         
-   }
-}
-
-
-.btn {
-   &:root{ 
-      border: 5px solid; color: #ffe066;
-   }
-}
